@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background= "@drawable/fondo"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="90dp"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:text="@string/titulo_app"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:height="70dp"
+        android:background="#7CE6E6E6"
+        android:backgroundTint="#FFFFFF"
+        android:gravity="center"
+        android:minWidth="18dp"
+        android:minHeight="48dp"
+        android:strokeColor="#ED1212"
+        android:text="Entrar"
+        android:textColor="#FFF"
+        android:textSize="30sp"
+        app:strokeWidth="5dp" />
+
+</LinearLayout>
